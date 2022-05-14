@@ -1,0 +1,201 @@
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.navLogo {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.logo1 {
+    font-weight: bold;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+}
+
+.navLinks li {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: gray;
+}
+
+.home {
+    position: relative;
+    text-align: center;
+    background-image: url("mainImg.jpg");
+    height: 680px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.homeText {
+    color: white;
+}
+
+.text1 {
+    padding-top: 15%;
+}
+
+.mainText {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.workCard {
+    width: 15%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: gray;
+}
+
+.workTopic {
+    font-size: 20px;
+}
+
+.workSign {
+    /* height: 50px; */
+    /* width: 50px; */
+    font-size: 30px;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.subscribe {
+    margin-top: 100px;
+    background-image: url("subsImg.jpg");
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    width: 300px;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.team {
+    margin: 100px auto;
+    width: 40%;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    width: 60%;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.teamImages {
+    width: 140px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.connect {
+    background-image: url("subsImg.jpg");
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.connect i {
+    font-size: 50px;
+}
+
+.connect p {
+    width: 40%;
+    margin: 20px auto;
+}
+
+.premium {
+    display: flex;
+    margin: 100px auto;
+    justify-content: center;
+}
+
+.premiumCard {
+    width: 20%;
+    text-align: center;
+    color: gray;
+}
+
+.formCard {
+    width: 50%;
+    background-color: gray;
+    border-radius: 50px;
+    margin: 50px auto;
+    color: white;
+    text-align: center;
+}
+
+.formData{
+    margin-bottom: 20px;
+}
+
+.formData p {
+    margin: 0px;
+}
+
+.contact {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.formCard input {
+    margin: 8px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.formCard button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+
+button, li, i:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
